@@ -14,7 +14,7 @@ import HelloWorld from './components/HelloWorld.vue'
   <HelloWorld msg="Vite + Vue" />
 </template>
 
-<style scoped>
+<style lang="scss">
 .logo {
   height: 6em;
   padding: 1.5em;
