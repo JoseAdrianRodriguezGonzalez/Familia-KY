@@ -1,0 +1,19 @@
+$blue :rgb(4,120,255);
+nav {
+    background-color: $blue;
+    width:100vw;
+    display:flex;
+    font-size: 2.4vw;
+}
+.Title{
+    width:25vw;
+    padding: 0.6vw;
+}
+.SECTIONS{
+    width: 75vw;
+    justify-content: end;
+    display:inherit;
+    gap:10vw;
+    flex-direction: row;
+    padding: 0.6vw;
+}

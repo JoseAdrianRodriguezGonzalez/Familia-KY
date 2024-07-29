@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
+    "gh-pages": "^6.1.1",
     "sass": "^1.77.8",
     "typescript": "^5.2.2",
     "vite": "^5.3.4",
