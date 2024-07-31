@@ -46,6 +46,15 @@ main{
     h1{
         font-size: 7vw;
     }
+    main{
+        display: grid;
+        grid-template-columns: auto auto;
+        section{
+            p{
+                font-size: 4vw;
+            }
+        }    
+    }
 }
 p{
     @include paraghraps();
