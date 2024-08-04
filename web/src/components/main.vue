@@ -1,51 +1,12 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import Aside from './../library/Aside.vue'
 import  './Main.scss'
-
+import Grid from './grid.vue';
 </script>
 <template>
     <main>
-        <div class="nav">
-            <ol>
-                <li>KY-01</li>
-                <li>KY-02</li>
-                <li>KY-03</li>
-                <li>KY-04</li>
-                <li>KY-05</li>
-                <li>KY-06</li>
-                <li>KY-07</li>
-                <li>KY-08</li>
-                <li>KY-09</li>
-                <li>KY-10</li>
-                <li>KY-11</li>
-                <li>KY-12</li>
-                <li>KY-13</li>
-                <li>KY-14</li>
-                <li>KY-15</li>
-                <li>KY-16</li>
-                <li>KY-17</li>
-                <li>KY-18</li>
-                <li>KY-19</li>
-                <li>KY-20</li>
-                <li>KY-21</li>
-                <li>KY-22</li>
-                <li>KY-23</li>
-                <li>KY-24</li>
-                <li>KY-25</li>
-                <li>KY-26</li>
-                <li>KY-27</li>
-                <li>KY-28</li>
-                <li>KY-29</li>
-                <li>KY-30</li>
-                <li>KY-31</li>
-                <li>KY-32</li>
-                <li>KY-33</li>
-                <li>KY-34</li>
-                <li>KY-35</li>
-                <li>KY-36</li>
-                <li>KY-37</li>
-            </ol>
-        </div>
+       <Aside></Aside>
         <div class="main-code">
             <h1>KY-sensors</h1>
             <section>
@@ -64,8 +25,8 @@ import  './Main.scss'
             <h2>Sensors</h2>
             <p>You can look here a brief description for each sensors, as also will be the images of each one</p>
         </section>
+            <Grid></Grid>
         </div>
-        
         
     </main>
 </template>
