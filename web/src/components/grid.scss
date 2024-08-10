@@ -11,6 +11,11 @@ $Color5: #8DF244;
     gap:2vw;
     div{
         background-color: $Color4;
-        
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        img{
+            width:10vw;
+        }
     }
 }

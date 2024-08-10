@@ -14,7 +14,7 @@ $Color5: #8DF244;
 }
 .nav{
     @include INDEX();
-    
+    width:20vw;
     ol{
         display: grid;
         grid-template-columns: repeat(1fr,37);

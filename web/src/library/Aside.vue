@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
 import './aside.scss';
-import items from './items.ts';
+import {items} from './items.ts';
 </script>
 <template>
   <div class="nav">
