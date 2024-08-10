@@ -11,7 +11,7 @@ const  getImageUrl = (item: string) => {
 <template>
     <section class="catalogue">
         <div  v-for="item in items" :key="item" :class="item">
-            <img :srcset="`${getImageUrl(item)}, ${getImageUrl2(item)}`" alt="">
+            <img :srcset="`${getImageUrl(item)}, ${getImageUrl2(item)}`" :alt="item">
             <span>
                 {{item}}
             </span>
