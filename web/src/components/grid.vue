@@ -1,5 +1,6 @@
 <script setup lang="ts" >
-import {ref} from 'vue';
+import './grid.scss';
+
 import items from '../library/items.ts';
 </script>
 <template>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+
 import Aside from './../library/Aside.vue'
 import  './Main.scss'
 import Grid from './grid.vue';

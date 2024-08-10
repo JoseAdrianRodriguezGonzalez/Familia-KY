@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+
 import './aside.scss';
 import items from './items.ts';
 </script>
