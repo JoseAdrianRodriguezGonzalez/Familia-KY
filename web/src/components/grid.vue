@@ -7,7 +7,7 @@ import{items,link} from '../library/items.ts';
     if (isDeploy) {
       // URL para entorno de despliegue
       console.log("hola");
-      return new URL(`/${item}.webp`, import.meta.url).href;
+      return `${link}${item}.webp`;
     } else {
       // URL para entorno local
        // Ajusta según tu configuración local
