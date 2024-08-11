@@ -4,14 +4,11 @@ import{items,link} from '../library/items.ts';
 const  getImageUrl = (item: string) => {
     return new URL(`${link}${item}.webp`, import.meta.url).href;
   };
-  const  getImageUrl2 = (item: string) => {
-    return new URL(`/${item}.webp`, import.meta.url).href;
-  };
 </script>
 <template>
     <section class="catalogue">
         <div  v-for="item in items" :key="item" :class="item">
-            <img :srcset="` ${getImageUrl2(item)},${getImageUrl(item)}`" :alt="item">
+            <img :src="getImageUrl(item)" alt="">
             <span>
                 {{item}}
             </span>
