@@ -5,7 +5,7 @@ const  getImageUrl = (item: string) => {
     return new URL(`${link}${item}.webp`, import.meta.url).href;
   };
   const  getImageUrl2 = (item: string) => {
-    return new URL(`./${item}.webp`, import.meta.url).href;
+    return new URL(`/${item}.webp`, import.meta.url).href;
   };
 </script>
 <template>
