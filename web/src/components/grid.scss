@@ -19,3 +19,13 @@ $Color5: #8DF244;
         }
     }
 }
+@media  (max-width:700px) {
+    .catalogue{
+        grid-template-columns: repeat(2, 1.3fr);
+        div{
+            img{
+                width:20vw;
+            }
+        }
+    }
+}

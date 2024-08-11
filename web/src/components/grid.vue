@@ -6,7 +6,7 @@ import{items,link} from '../library/items.ts';
     const isDeploy = process.env.NODE_ENV === 'production'; // Detecta si estás en producción
     if (isDeploy) {
       // URL para entorno de despliegue
-      console.log(item);
+      
       return `${link}${item}.webp`;
     } else {
       // URL para entorno local
