@@ -6,13 +6,11 @@ import{items,link} from '../library/items.ts';
     const isDeploy = process.env.NODE_ENV === 'production'; // Detecta si estás en producción
     if (isDeploy) {
       // URL para entorno de despliegue
-      return new URL(`./${item}.webp`, import.meta.url).href;
+      console.log("hola");
+      return new URL(`/${item}.webp`, import.meta.url).href;
     } else {
       // URL para entorno local
        // Ajusta según tu configuración local
-       if (!item) {
-             return undefined; // Aquí podrías estar devolviendo undefined si item es falsy
-        }
       return new URL(`${link}${item}.webp`, import.meta.url).href;
     }
   }
